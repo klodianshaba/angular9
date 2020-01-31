@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular9';
+
+  press() {
+    alert('press');
+  }
+
+  keyup() {
+    alert('up');
+  }
 }
